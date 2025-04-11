@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "81444c81e0e8924e",
+        "id": "5e9b82d17ad360b9",
         "type": "tabs",
         "children": [
           {
-            "id": "919f4a994c770859",
+            "id": "605f55d17d84d755",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Engineering/Spark/1. What is Apache Spark?.md",
+                "file": "Data Engineering/Spark/3. Spark Architecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. What is Apache Spark?"
+              "title": "3. Spark Architecture"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#security-groups",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Engineering/Spark/1. What is Apache Spark?.md",
+                "file": "Data Engineering/Spark/3. Spark Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 1. What is Apache Spark?"
+              "title": "Backlinks for 3. Spark Architecture"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Engineering/Spark/1. What is Apache Spark?.md",
+                "file": "Data Engineering/Spark/3. Spark Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 1. What is Apache Spark?"
+              "title": "Outgoing links from 3. Spark Architecture"
             }
           },
           {
@@ -142,22 +142,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Engineering/Spark/1. What is Apache Spark?.md",
+                "file": "Data Engineering/Spark/3. Spark Architecture.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1. What is Apache Spark?"
+              "title": "Outline of 3. Spark Architecture"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,10 +168,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "110819deac7cbf9c",
+  "active": "605f55d17d84d755",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Data Engineering/Spark/8. Actions.md",
+    "Data Engineering/Spark/7. Lazy Evaluation.md",
+    "Data Engineering/Spark/3. Spark Architecture.md",
+    "Data Engineering/Spark/6. Transformations.md",
+    "Data Engineering/Spark/4. Spark DataFrame.md",
+    "Data Engineering/Images/Pasted image 20250411144344.png",
+    "Data Engineering/Images/Pasted image 20250411154158.png",
+    "Data Engineering/Images",
+    "Data Engineering/Spark/5. Partitions.md",
     "Data Engineering/Spark/1. What is Apache Spark?.md",
+    "Data Engineering/Spark/2. Why need Spark?.md",
     "Untitled",
     "Cloud/AWS/9. Databases/Databases on AWS.md",
     "Cloud/AWS/5. VPC/VPC.md",
@@ -196,13 +203,7 @@
     "Cloud/AWS/3. AWS Security Model/Granting Least Privilege.md",
     "Cloud/AWS/3. AWS Security Model/AWS Security Model.md",
     "Cloud/AWS/2. Accessing & Using AWS/Service Quotas.md",
-    "Cloud/AWS/2. Accessing & Using AWS/Service Categories.md",
-    "Cloud/AWS/2. Accessing & Using AWS/Self-Service & Managed Services.md",
-    "Cloud/AWS/2. Accessing & Using AWS/Cost Management and Budgets.md",
-    "Cloud/AWS/2. Accessing & Using AWS/AWS Support and Status.md",
-    "Cloud/AWS/2. Accessing & Using AWS/AWS Pricing & Cost Management.md",
     "Cloud/AWS/1. AWS Infra/Pasted image 20250322214622.png",
-    "Spark.md",
     "Pasted image 20250411093349.png",
     "Cloud/AWS/10. DNS",
     "Cloud/AWS/9. Databases",
@@ -211,12 +212,9 @@
     "Cloud/AWS/8. S3/Pasted image 20250404201846.png",
     "Cloud/AWS/8. S3/Pasted image 20250404201815.png",
     "Cloud/AWS/8. S3/Pasted image 20250404201724.png",
-    "Cloud/AWS/8. S3/Pasted image 20250404153956.png",
-    "Cloud/AWS/8. S3/Pasted image 20250404125319.png",
     "Cloud/AWS/8. S3",
     "Cloud/AWS/7. File Storage with EBS, EFS & S3",
     "Cloud/AWS/6. Scaling & Load Balancing",
-    "Cloud/AWS/5. VPC",
-    "Cloud/AWS/4. EC2"
+    "Cloud/AWS/5. VPC"
   ]
 }
