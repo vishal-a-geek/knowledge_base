@@ -1,0 +1,16 @@
+- Compute
+	- To run applications on cloud
+	- Run web server, crawler, tool to convert img to pdf docs
+- Data Storage
+	- Storing files
+- Database
+	- Run DB
+- Networking & Content Delivery
+- Application Integration
+- Security
+- Cloud Management
+- Migration & Edge Computing
+- Analytics & Data Ingestion
+- ML & AI
+- Developer Tools
+- Business Applications 

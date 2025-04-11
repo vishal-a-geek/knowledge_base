@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cf836d167f015444",
+        "id": "57eea808c05e6303",
         "type": "tabs",
         "children": [
           {
-            "id": "09bf0130461c8a01",
+            "id": "7f5775bf15b14e51",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -109,7 +109,7 @@
               "type": "outgoing-link",
               "state": {
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
               "title": "Outgoing links"
@@ -145,12 +145,12 @@
               "title": "Outline of Welcome"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -163,8 +163,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "110819deac7cbf9c",
+  "active": "7f5775bf15b14e51",
   "lastOpenFiles": [
-    "Welcome.md"
+    "AWS/8. S3/S3.md",
+    "AWS/4. EC2/EC2.md",
+    "AWS/3. AWS Security Model/IAM.md",
+    "AWS/8. S3/Object Storage with S3.md",
+    "AWS/10. DNS/DNS.md",
+    "AWS/10. DNS",
+    "AWS/9. Databases/Databases on AWS.md",
+    "AWS/9. Databases",
+    "AWS/8. S3/Pasted image 20250404202104.png",
+    "AWS/8. S3/Pasted image 20250404202045.png",
+    "AWS/8. S3/Pasted image 20250404201846.png",
+    "AWS/8. S3/Pasted image 20250404201815.png",
+    "AWS/8. S3/Pasted image 20250404201724.png",
+    "AWS/8. S3/Pasted image 20250404153956.png",
+    "AWS/8. S3/Pasted image 20250404125319.png",
+    "AWS/8. S3/Pasted image 20250404100004.png",
+    "AWS/8. S3/Pasted image 20250404095920.png",
+    "AWS/8. S3/Pasted image 20250404095736.png",
+    "AWS/8. S3",
+    "AWS/7. File Storage with EBS, EFS & S3/File Storage with EBS, EFS & S3.md",
+    "AWS/7. File Storage with EBS, EFS & S3",
+    "AWS/6. Scaling & Load Balancing/Scaling & Load Balancing.md",
+    "AWS/6. Scaling & Load Balancing",
+    "AWS/5. VPC/VPC.md",
+    "AWS/5. VPC",
+    "AWS/4. EC2/Compute Services by AWS.md",
+    "AWS/4. EC2",
+    "AWS/3. AWS Security Model/Protecting our AWS Account.md",
+    "AWS/3. AWS Security Model/How Policies & Permissions are Evaluated.md",
+    "AWS/3. AWS Security Model/Granting Least Privilege.md",
+    "AWS/3. AWS Security Model/AWS Security Model.md",
+    "AWS/3. AWS Security Model",
+    "AWS/2. Accessing & Using AWS/Service Quotas.md",
+    "AWS/2. Accessing & Using AWS/Service Categories.md",
+    "AWS/2. Accessing & Using AWS/Self-Service & Managed Services.md",
+    "AWS/2. Accessing & Using AWS/Cost Management and Budgets.md",
+    "AWS/2. Accessing & Using AWS/Accessing & Using AWS.md",
+    "AWS/2. Accessing & Using AWS/AWS Support and Status.md",
+    "AWS/2. Accessing & Using AWS/AWS Pricing & Cost Management.md",
+    "AWS/2. Accessing & Using AWS",
+    "AWS/1. AWS Infra/AWS World-Wide Infrastructure.md",
+    "AWS/1. AWS Infra",
+    "AWS/AWS/9. Databases/Databases on AWS.md",
+    "AWS/AWS/8. S3/S3.md",
+    "AWS/AWS/8. S3/Object Storage with S3.md",
+    "AWS/AWS/7. File Storage with EBS, EFS & S3/File Storage with EBS, EFS & S3.md"
   ]
 }
