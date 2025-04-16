@@ -100,7 +100,7 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.9.2",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.10.0",
     "libraryItems": [
       {
         "status": "unpublished",
@@ -125,8 +125,6 @@
             "height": 103.65107323746608,
             "seed": 1445523839,
             "groupIds": [],
-            "strokeSharpness": "sharp",
-            "boundElementIds": [],
             "startBinding": null,
             "endBinding": null,
             "points": [
@@ -195,12 +193,10 @@
             "groupIds": [
               "N2YAi9nU-wlRb0rDaDZoe"
             ],
-            "strokeSharpness": "round",
             "seed": 1513238033,
             "version": 3902,
             "versionNonce": 1683728454,
             "isDeleted": false,
-            "boundElementIds": null,
             "points": [
               [
                 0,
@@ -312,12 +308,10 @@
             "groupIds": [
               "N2YAi9nU-wlRb0rDaDZoe"
             ],
-            "strokeSharpness": "round",
             "seed": 683951089,
             "version": 1636,
             "versionNonce": 1590060826,
             "isDeleted": false,
-            "boundElementIds": null,
             "points": [
               [
                 0,
@@ -385,12 +379,10 @@
             "groupIds": [
               "N2YAi9nU-wlRb0rDaDZoe"
             ],
-            "strokeSharpness": "round",
             "seed": 1817746897,
             "version": 1723,
             "versionNonce": 613068678,
             "isDeleted": false,
-            "boundElementIds": null,
             "points": [
               [
                 0,
@@ -462,10 +454,6 @@
             "groupIds": [
               "N2YAi9nU-wlRb0rDaDZoe"
             ],
-            "strokeSharpness": "sharp",
-            "boundElementIds": [
-              "bxuMGTzXLn7H-uBCptINx"
-            ],
             "index": "a3",
             "frameId": null,
             "roundness": null,
@@ -497,12 +485,10 @@
             "groupIds": [
               "N2YAi9nU-wlRb0rDaDZoe"
             ],
-            "strokeSharpness": "sharp",
             "seed": 1073094033,
             "version": 110,
             "versionNonce": 1876348614,
             "isDeleted": false,
-            "boundElementIds": null,
             "index": "a4",
             "frameId": null,
             "roundness": null,
@@ -529,12 +515,10 @@
             "groupIds": [
               "N2YAi9nU-wlRb0rDaDZoe"
             ],
-            "strokeSharpness": "sharp",
             "seed": 526271345,
             "version": 159,
             "versionNonce": 953608346,
             "isDeleted": false,
-            "boundElementIds": null,
             "index": "a5",
             "frameId": null,
             "roundness": null,
@@ -561,12 +545,10 @@
             "groupIds": [
               "N2YAi9nU-wlRb0rDaDZoe"
             ],
-            "strokeSharpness": "sharp",
             "seed": 243707217,
             "version": 213,
             "versionNonce": 316474886,
             "isDeleted": false,
-            "boundElementIds": null,
             "index": "a6",
             "frameId": null,
             "roundness": null,
@@ -600,12 +582,10 @@
             "groupIds": [
               "M6ByXuSmtHCr3RtPPKJQh"
             ],
-            "strokeSharpness": "sharp",
             "seed": 511870335,
             "version": 660,
             "versionNonce": 1508033882,
             "isDeleted": false,
-            "boundElementIds": null,
             "index": "a0",
             "frameId": null,
             "roundness": null,
@@ -632,12 +612,10 @@
             "groupIds": [
               "M6ByXuSmtHCr3RtPPKJQh"
             ],
-            "strokeSharpness": "sharp",
             "seed": 1283079231,
             "version": 701,
             "versionNonce": 1050301766,
             "isDeleted": false,
-            "boundElementIds": null,
             "index": "a1",
             "frameId": null,
             "roundness": null,
@@ -664,12 +642,10 @@
             "groupIds": [
               "M6ByXuSmtHCr3RtPPKJQh"
             ],
-            "strokeSharpness": "sharp",
             "seed": 996251633,
             "version": 781,
             "versionNonce": 1322584602,
             "isDeleted": false,
-            "boundElementIds": null,
             "index": "a2",
             "frameId": null,
             "roundness": null,
@@ -696,12 +672,10 @@
             "groupIds": [
               "M6ByXuSmtHCr3RtPPKJQh"
             ],
-            "strokeSharpness": "sharp",
             "seed": 1764842481,
             "version": 823,
             "versionNonce": 2087435398,
             "isDeleted": false,
-            "boundElementIds": null,
             "index": "a3",
             "frameId": null,
             "roundness": null,
@@ -735,12 +709,10 @@
             "groupIds": [
               "HSrtfEf-CssQTf160Fb6R"
             ],
-            "strokeSharpness": "round",
             "seed": 1424381745,
             "version": 4767,
             "versionNonce": 513849050,
             "isDeleted": false,
-            "boundElementIds": null,
             "points": [
               [
                 0,
@@ -852,12 +824,10 @@
             "groupIds": [
               "HSrtfEf-CssQTf160Fb6R"
             ],
-            "strokeSharpness": "round",
             "seed": 726657713,
             "version": 2406,
             "versionNonce": 571358150,
             "isDeleted": false,
-            "boundElementIds": null,
             "points": [
               [
                 0,
@@ -925,12 +895,10 @@
             "groupIds": [
               "HSrtfEf-CssQTf160Fb6R"
             ],
-            "strokeSharpness": "round",
             "seed": 1977326481,
             "version": 2539,
             "versionNonce": 2044251034,
             "isDeleted": false,
-            "boundElementIds": null,
             "points": [
               [
                 0,
@@ -1002,10 +970,6 @@
             "groupIds": [
               "HSrtfEf-CssQTf160Fb6R"
             ],
-            "strokeSharpness": "sharp",
-            "boundElementIds": [
-              "bxuMGTzXLn7H-uBCptINx"
-            ],
             "index": "a3",
             "frameId": null,
             "roundness": null,
@@ -1047,12 +1011,6 @@
             "seed": 371096063,
             "groupIds": [
               "9ppmKFUbA4iKjt8FaDFox"
-            ],
-            "strokeSharpness": "sharp",
-            "boundElementIds": [
-              "CFu0B4Mw_1wC1Hbgx8Fs0",
-              "XIl_NhaFtRO00pX5Pq6VU",
-              "EndiSTFlx1AT7vcBVjgve"
             ],
             "index": "a0",
             "frameId": null,
@@ -1098,12 +1056,6 @@
               "0RJwA-yKP5dqk5oMiSeot",
               "9ppmKFUbA4iKjt8FaDFox"
             ],
-            "strokeSharpness": "sharp",
-            "boundElementIds": [
-              "CFu0B4Mw_1wC1Hbgx8Fs0",
-              "XIl_NhaFtRO00pX5Pq6VU",
-              "EndiSTFlx1AT7vcBVjgve"
-            ],
             "index": "a1",
             "frameId": null,
             "roundness": null,
@@ -1146,12 +1098,6 @@
             "seed": 58634943,
             "groupIds": [
               "9ppmKFUbA4iKjt8FaDFox"
-            ],
-            "strokeSharpness": "sharp",
-            "boundElementIds": [
-              "CFu0B4Mw_1wC1Hbgx8Fs0",
-              "XIl_NhaFtRO00pX5Pq6VU",
-              "EndiSTFlx1AT7vcBVjgve"
             ],
             "index": "a2",
             "frameId": null,
@@ -1196,8 +1142,6 @@
             "groupIds": [
               "9ppmKFUbA4iKjt8FaDFox"
             ],
-            "strokeSharpness": "round",
-            "boundElementIds": [],
             "points": [
               [
                 0,
@@ -1249,8 +1193,6 @@
             "groupIds": [
               "9ppmKFUbA4iKjt8FaDFox"
             ],
-            "strokeSharpness": "round",
-            "boundElementIds": [],
             "points": [
               [
                 0,
@@ -1302,8 +1244,6 @@
             "groupIds": [
               "9ppmKFUbA4iKjt8FaDFox"
             ],
-            "strokeSharpness": "round",
-            "boundElementIds": [],
             "points": [
               [
                 0,
@@ -1359,8 +1299,6 @@
             "groupIds": [
               "9ppmKFUbA4iKjt8FaDFox"
             ],
-            "strokeSharpness": "round",
-            "boundElementIds": [],
             "points": [
               [
                 0,
@@ -1420,8 +1358,6 @@
             "groupIds": [
               "9ppmKFUbA4iKjt8FaDFox"
             ],
-            "strokeSharpness": "round",
-            "boundElementIds": [],
             "points": [
               [
                 0,
@@ -1473,8 +1409,6 @@
             "groupIds": [
               "9ppmKFUbA4iKjt8FaDFox"
             ],
-            "strokeSharpness": "round",
-            "boundElementIds": [],
             "points": [
               [
                 0,
@@ -1533,12 +1467,10 @@
             "groupIds": [
               "TC0RSM64Cxmu17MlE12-o"
             ],
-            "strokeSharpness": "sharp",
             "seed": 106569279,
             "version": 677,
             "versionNonce": 278671174,
             "isDeleted": false,
-            "boundElementIds": null,
             "index": "a0",
             "frameId": null,
             "roundness": null,
@@ -1565,12 +1497,10 @@
             "groupIds": [
               "TC0RSM64Cxmu17MlE12-o"
             ],
-            "strokeSharpness": "round",
             "seed": 73916127,
             "version": 463,
             "versionNonce": 2046152730,
             "isDeleted": false,
-            "boundElementIds": null,
             "points": [
               [
                 0,
@@ -1614,12 +1544,10 @@
             "groupIds": [
               "TC0RSM64Cxmu17MlE12-o"
             ],
-            "strokeSharpness": "sharp",
             "seed": 387857791,
             "version": 283,
             "versionNonce": 623007366,
             "isDeleted": false,
-            "boundElementIds": null,
             "index": "a2",
             "frameId": null,
             "roundness": null,
@@ -1646,12 +1574,10 @@
             "groupIds": [
               "TC0RSM64Cxmu17MlE12-o"
             ],
-            "strokeSharpness": "sharp",
             "seed": 1486370207,
             "version": 328,
             "versionNonce": 1975041242,
             "isDeleted": false,
-            "boundElementIds": null,
             "index": "a3",
             "frameId": null,
             "roundness": null,
@@ -1678,12 +1604,10 @@
             "groupIds": [
               "TC0RSM64Cxmu17MlE12-o"
             ],
-            "strokeSharpness": "sharp",
             "seed": 610150847,
             "version": 386,
             "versionNonce": 1826723270,
             "isDeleted": false,
-            "boundElementIds": null,
             "index": "a4",
             "frameId": null,
             "roundness": null,
@@ -1710,12 +1634,10 @@
             "groupIds": [
               "TC0RSM64Cxmu17MlE12-o"
             ],
-            "strokeSharpness": "sharp",
             "seed": 144280593,
             "version": 665,
             "versionNonce": 2080379290,
             "isDeleted": false,
-            "boundElementIds": null,
             "index": "a5",
             "frameId": null,
             "roundness": null,
@@ -1742,12 +1664,10 @@
             "groupIds": [
               "TC0RSM64Cxmu17MlE12-o"
             ],
-            "strokeSharpness": "round",
             "seed": 29167967,
             "version": 1282,
             "versionNonce": 1358359814,
             "isDeleted": false,
-            "boundElementIds": null,
             "points": [
               [
                 0,
@@ -1871,12 +1791,10 @@
             "groupIds": [
               "TC0RSM64Cxmu17MlE12-o"
             ],
-            "strokeSharpness": "round",
             "seed": 1443027377,
             "version": 702,
             "versionNonce": 268357210,
             "isDeleted": false,
-            "boundElementIds": null,
             "points": [
               [
                 0,
@@ -1920,12 +1838,10 @@
             "groupIds": [
               "TC0RSM64Cxmu17MlE12-o"
             ],
-            "strokeSharpness": "round",
             "seed": 244310513,
             "version": 2909,
             "versionNonce": 249519174,
             "isDeleted": false,
-            "boundElementIds": null,
             "points": [
               [
                 0,
@@ -1993,12 +1909,10 @@
             "groupIds": [
               "TC0RSM64Cxmu17MlE12-o"
             ],
-            "strokeSharpness": "sharp",
             "seed": 683572113,
             "version": 726,
             "versionNonce": 1451750170,
             "isDeleted": false,
-            "boundElementIds": null,
             "index": "a9",
             "frameId": null,
             "roundness": null,
@@ -2025,12 +1939,10 @@
             "groupIds": [
               "TC0RSM64Cxmu17MlE12-o"
             ],
-            "strokeSharpness": "round",
             "seed": 318798801,
             "version": 3114,
             "versionNonce": 746054534,
             "isDeleted": false,
-            "boundElementIds": null,
             "points": [
               [
                 0,
@@ -2101,12 +2013,10 @@
             "groupIds": [
               "GMZ-NW9lG7c1AtfBInZ0n"
             ],
-            "strokeSharpness": "sharp",
             "seed": 1914896753,
             "version": 686,
             "versionNonce": 1645117402,
             "isDeleted": false,
-            "boundElementIds": null,
             "index": "a0",
             "frameId": null,
             "roundness": null,
@@ -2133,12 +2043,10 @@
             "groupIds": [
               "GMZ-NW9lG7c1AtfBInZ0n"
             ],
-            "strokeSharpness": "sharp",
             "seed": 1306468145,
             "version": 836,
             "versionNonce": 1811776198,
             "isDeleted": false,
-            "boundElementIds": null,
             "index": "a1",
             "frameId": null,
             "roundness": null,
@@ -2165,12 +2073,10 @@
             "groupIds": [
               "GMZ-NW9lG7c1AtfBInZ0n"
             ],
-            "strokeSharpness": "sharp",
             "seed": 93422161,
             "version": 882,
             "versionNonce": 2124772506,
             "isDeleted": false,
-            "boundElementIds": null,
             "index": "a2",
             "frameId": null,
             "roundness": null,
@@ -2197,12 +2103,10 @@
             "groupIds": [
               "GMZ-NW9lG7c1AtfBInZ0n"
             ],
-            "strokeSharpness": "sharp",
             "seed": 11646495,
             "version": 529,
             "versionNonce": 1074608646,
             "isDeleted": false,
-            "boundElementIds": null,
             "index": "a3",
             "frameId": null,
             "roundness": null,
@@ -2229,12 +2133,10 @@
             "groupIds": [
               "GMZ-NW9lG7c1AtfBInZ0n"
             ],
-            "strokeSharpness": "sharp",
             "seed": 291717649,
             "version": 571,
             "versionNonce": 2113917274,
             "isDeleted": false,
-            "boundElementIds": null,
             "index": "a4",
             "frameId": null,
             "roundness": null,
@@ -2258,7 +2160,7 @@
   "mdCSS": "",
   "scriptEngineSettings": {},
   "defaultTrayMode": false,
-  "previousRelease": "2.9.2",
+  "previousRelease": "2.10.0",
   "showReleaseNotes": true,
   "showNewVersionNotification": true,
   "latexBoilerplate": "\\color{blue}",

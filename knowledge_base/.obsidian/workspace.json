@@ -4,37 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "5e9b82d17ad360b9",
+        "id": "031045fc1fe3185e",
         "type": "tabs",
         "children": [
           {
-            "id": "605f55d17d84d755",
+            "id": "06635d6abdcfb9bd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Knowledge Base/Targeted Knowledge Base.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Targeted Knowledge Base"
-            }
-          },
-          {
-            "id": "01123bc7e3b79b36",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Schedule/Schedule.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Schedule"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Schedule/Schedule.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Schedule"
+              "title": "Backlinks"
             }
           },
           {
@@ -126,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Schedule/Schedule.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Schedule"
+              "title": "Outgoing links"
             }
           },
           {
@@ -155,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Schedule/Schedule.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Schedule"
+              "title": "Outline"
             }
           }
         ]
@@ -180,17 +160,29 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "open-vscode:VSCode": false,
+      "vscode-editor:Create Code File": false
     }
   },
-  "active": "01123bc7e3b79b36",
+  "active": "06635d6abdcfb9bd",
   "lastOpenFiles": [
-    "Knowledge Base/Targeted Knowledge Base.md",
     "Schedule/Schedule.md",
+    "Knowledge Base/Targeted Knowledge Base.md",
+    "Data Engineering/Spark/2. Why need Spark?.md",
+    "darting.dart",
+    "Knowledge Base/test.ts",
+    "My code file.go",
+    "My code file.dart",
+    "test_dart.dart",
+    "Excalidraw/Drawing 2025-04-16 11.25.12.excalidraw.md",
+    "test.dart",
+    "Excalidraw/Drawing 2025-04-16 10.46.45.excalidraw.md",
+    "Excalidraw",
+    "2025-04-16.md",
     "Schedule",
     "Excalidraw/Drawing 2025-04-15 19.40.18.excalidraw.md",
     "Excalidraw/Drawing 2025-04-15 19.33.05.excalidraw.md",
-    "Excalidraw",
     "Excalidraw/Drawing 2025-04-15 11.46.11.excalidraw.md",
     "Data Engineering/Spark/1. What is Apache Spark?.md",
     "Data Engineering/Spark/9. Spark Installation.md",
@@ -204,9 +196,7 @@
     "Data Engineering/Spark/4. Spark DataFrame.md",
     "Data Engineering/Images/Pasted image 20250411144344.png",
     "Data Engineering/Images/Pasted image 20250411154158.png",
-    "Data Engineering/Images",
     "Data Engineering/Spark/5. Partitions.md",
-    "Data Engineering/Spark/2. Why need Spark?.md",
     "Cloud/AWS/9. Databases/Databases on AWS.md",
     "Cloud/AWS/5. VPC/VPC.md",
     "Cloud/AWS/8. S3/S3.md",
@@ -214,22 +204,14 @@
     "Cloud/AWS/7. File Storage with EBS, EFS & S3/File Storage with EBS, EFS & S3.md",
     "Cloud/AWS/3. AWS Security Model/IAM.md",
     "Cloud/AWS/4. EC2/Compute Services by AWS.md",
-    "Cloud/AWS/6. Scaling & Load Balancing/Scaling & Load Balancing.md",
-    "Data Engineering",
-    "Cloud",
     "Untitled.canvas",
-    "Cloud/AWS/4. EC2/EC2.md",
-    "Cloud/AWS/2. Accessing & Using AWS/Accessing & Using AWS.md",
     "Cloud/AWS/3. AWS Security Model/Pasted image 20250323213536.png",
     "Cloud/AWS/1. AWS Infra/Pasted image 20250322214622.png",
     "Pasted image 20250411093349.png",
-    "Cloud/AWS/10. DNS",
-    "Cloud/AWS/9. Databases",
     "Cloud/AWS/8. S3/Pasted image 20250404202104.png",
     "Cloud/AWS/8. S3/Pasted image 20250404202045.png",
     "Cloud/AWS/8. S3/Pasted image 20250404201846.png",
     "Cloud/AWS/8. S3/Pasted image 20250404201815.png",
-    "Cloud/AWS/8. S3/Pasted image 20250404201724.png",
-    "Cloud/AWS/8. S3"
+    "Cloud/AWS/8. S3/Pasted image 20250404201724.png"
   ]
 }

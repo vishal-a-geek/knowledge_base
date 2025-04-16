@@ -1,4 +1,6 @@
 [
   "obsidian-git",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "open-vscode",
+  "vscode-editor"
 ]
