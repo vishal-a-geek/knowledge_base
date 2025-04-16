@@ -13,15 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Engineering/Spark/3. Spark Architecture.md",
+                "file": "Knowledge Base/Targeted Knowledge Base.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Spark Architecture"
+              "title": "Targeted Knowledge Base"
+            }
+          },
+          {
+            "id": "01123bc7e3b79b36",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Schedule/Schedule.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Schedule"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Engineering/Spark/3. Spark Architecture.md",
+                "file": "Schedule/Schedule.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +117,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 3. Spark Architecture"
+              "title": "Backlinks for Schedule"
             }
           },
           {
@@ -113,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Engineering/Spark/3. Spark Architecture.md",
+                "file": "Schedule/Schedule.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 3. Spark Architecture"
+              "title": "Outgoing links from Schedule"
             }
           },
           {
@@ -142,20 +155,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Engineering/Spark/3. Spark Architecture.md",
+                "file": "Schedule/Schedule.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3. Spark Architecture"
+              "title": "Outline of Schedule"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,23 +179,34 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "605f55d17d84d755",
+  "active": "01123bc7e3b79b36",
   "lastOpenFiles": [
+    "Knowledge Base/Targeted Knowledge Base.md",
+    "Schedule/Schedule.md",
+    "Schedule",
+    "Excalidraw/Drawing 2025-04-15 19.40.18.excalidraw.md",
+    "Excalidraw/Drawing 2025-04-15 19.33.05.excalidraw.md",
+    "Excalidraw",
+    "Excalidraw/Drawing 2025-04-15 11.46.11.excalidraw.md",
+    "Data Engineering/Spark/1. What is Apache Spark?.md",
+    "Data Engineering/Spark/9. Spark Installation.md",
+    "1. What is Apache Spark?].md",
+    "Knowledge Base",
+    "Data Engineering/Spark/3. Spark Architecture.md",
+    "Data Engineering/Spark/9. Spark Installation",
     "Data Engineering/Spark/8. Actions.md",
     "Data Engineering/Spark/7. Lazy Evaluation.md",
-    "Data Engineering/Spark/3. Spark Architecture.md",
     "Data Engineering/Spark/6. Transformations.md",
     "Data Engineering/Spark/4. Spark DataFrame.md",
     "Data Engineering/Images/Pasted image 20250411144344.png",
     "Data Engineering/Images/Pasted image 20250411154158.png",
     "Data Engineering/Images",
     "Data Engineering/Spark/5. Partitions.md",
-    "Data Engineering/Spark/1. What is Apache Spark?.md",
     "Data Engineering/Spark/2. Why need Spark?.md",
-    "Untitled",
     "Cloud/AWS/9. Databases/Databases on AWS.md",
     "Cloud/AWS/5. VPC/VPC.md",
     "Cloud/AWS/8. S3/S3.md",
@@ -195,14 +220,7 @@
     "Untitled.canvas",
     "Cloud/AWS/4. EC2/EC2.md",
     "Cloud/AWS/2. Accessing & Using AWS/Accessing & Using AWS.md",
-    "Cloud/AWS/1. AWS Infra/AWS World-Wide Infrastructure.md",
-    "Cloud/AWS/10. DNS/DNS.md",
-    "Cloud/AWS/3. AWS Security Model/Protecting our AWS Account.md",
     "Cloud/AWS/3. AWS Security Model/Pasted image 20250323213536.png",
-    "Cloud/AWS/3. AWS Security Model/How Policies & Permissions are Evaluated.md",
-    "Cloud/AWS/3. AWS Security Model/Granting Least Privilege.md",
-    "Cloud/AWS/3. AWS Security Model/AWS Security Model.md",
-    "Cloud/AWS/2. Accessing & Using AWS/Service Quotas.md",
     "Cloud/AWS/1. AWS Infra/Pasted image 20250322214622.png",
     "Pasted image 20250411093349.png",
     "Cloud/AWS/10. DNS",
@@ -212,9 +230,6 @@
     "Cloud/AWS/8. S3/Pasted image 20250404201846.png",
     "Cloud/AWS/8. S3/Pasted image 20250404201815.png",
     "Cloud/AWS/8. S3/Pasted image 20250404201724.png",
-    "Cloud/AWS/8. S3",
-    "Cloud/AWS/7. File Storage with EBS, EFS & S3",
-    "Cloud/AWS/6. Scaling & Load Balancing",
-    "Cloud/AWS/5. VPC"
+    "Cloud/AWS/8. S3"
   ]
 }
