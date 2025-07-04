@@ -1,0 +1,240 @@
+{
+  "main": {
+    "id": "f7afd543e3b24e55",
+    "type": "split",
+    "children": [
+      {
+        "id": "7df488927ea924a9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d7f634906af95909",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Go Dev/fmt.Fprint vs  fmt.Print.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "fmt.Fprint vs  fmt.Print"
+            }
+          },
+          {
+            "id": "1b9906acd3b4541b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Design Patterns/Abstract Factory Pattern.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Abstract Factory Pattern"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "35b3b08fd6771449",
+    "type": "split",
+    "children": [
+      {
+        "id": "ca677f60a7b861cf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "110819deac7cbf9c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "46311027a4d5c452",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "dba6e61b1bf7acb8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 426.5086555480957
+  },
+  "right": {
+    "id": "b728b4262fed4323",
+    "type": "split",
+    "children": [
+      {
+        "id": "2c38da33b265e1c1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "df3be2b79f64e64a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "ee79568f0dc6cd8b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "fd76d4228573e200",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d8210ac632ae57d2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "open-vscode:VSCode": false,
+      "vscode-editor:Create Code File": false,
+      "obsidian-kanban:Create new board": false
+    }
+  },
+  "active": "110819deac7cbf9c",
+  "lastOpenFiles": [
+    "Go Dev/HTTP Handler and Handle Function.md",
+    "Untitled.md",
+    "Go Dev/fmt.Fprint vs  fmt.Print.md",
+    "Go Dev/Go learnings.md",
+    "Go Dev/CMD Directory.md",
+    "Go Dev/Untitled",
+    "Go Dev",
+    "Docker & K8s/multi-docker/Multi-Docker architecture.md",
+    "NGINX/Managing Threading & Connection.md",
+    "Docker & K8s/multi-docker",
+    "Untitled 1",
+    "Docker & K8s/multi-docker/Pasted Image 20250704012958_760.png",
+    "Docker & K8s",
+    "Docker & K8s/multi-docker/Pasted Image 20250704102455_254.png",
+    "Docker & K8s/multi-docker/Pasted Image 20250704102317_106.png",
+    "Docker & K8s/multi-docker/Pasted Image 20250704101451_483.png",
+    "Docker & K8s/multi-docker/Pasted Image 20250704101312_267.png",
+    "Docker & K8s/multi-docker/Pasted Image 20250704100103_573.png",
+    "Docker & K8s/multi-docker/Pasted Image 20250704013145_527.png",
+    "Docker & K8s/multi-docker/Pasted Image 20250704013035_210.png",
+    "Excalidraw",
+    "NGINX/NGINX.md",
+    "Cloud/AWS/5. VPC/VPC.md",
+    "Cloud/AWS/4. EC2/EC2.md",
+    "Authentication/Base64 Encoding.md",
+    "NGINX/TLS Termination VS TLS Passthrough.md",
+    "NGINX/NGINX Proxying (L4 vs L7).md",
+    "NGINX/NGINX Internal Architecture.md",
+    "NGINX/NGINX arch.png",
+    "NGINX",
+    "Go/Why Go/Go.md",
+    "Design Patterns/Abstract Factory Pattern.md",
+    "Go/Why Go",
+    "Go",
+    "Design Patterns",
+    "Knowledge Base/Knowledge Kan.md",
+    "drawing_tools/Template.excalidraw.md",
+    "drawing_tools/Template.md",
+    "drawing_tools/T.md",
+    "drawing_tools/bloom-visualisation.png",
+    "AWS.md",
+    "Knowledge Base/Schedule/Plan.md",
+    "Authentication/Hashing/Hashing.md",
+    "Authentication/Encryption/Encryption.md",
+    "Knowledge Base/Schedule/Schedule.md",
+    "Excalidraw/Drawing 2025-04-21 08.57.54.excalidraw.md",
+    "Untitled.canvas"
+  ]
+}

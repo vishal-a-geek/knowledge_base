@@ -1,0 +1,154 @@
+#go #http-handler-func #net/http #io-writer #http-ResponseWriter #fmt-Fprint #http-ServeMux #http-handle-func #http-Handler
+
+In go, we handle any incoming web request by reflecting to the reality that there are two things **request** and **response**
+```
+func handlerFunc(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprint(w, "<h1>Welcome</h1>")
+}
+```
+
+- **`http.ResponseWriter`** is an `interface`, where as `http.Request` is a `struct`
+	- **`ResponseWriter`** needs to be or could be substituted by multiple implementations
+	- thus has diff advantages:
+		- different types of connections might allow for different type of responses
+			- some responses might be streamable, where as some might be something where we need to write the entire response before sending all at once
+		- helps to test easily
+			- **`httptest.ResponseRecorder`** implements `http.ResponseWriter`, allowing us to easily test our code
+
+- functions that match the signature where they take in `http.ResponseWriter` and `http.Request` and used quite often because they are default way of handling any sort of incoming web request in go
+- thus, in `http` package there's also a type defined for this function signature called [`type http.HandlerFunc`](https://pkg.go.dev/net/http#HandlerFunc)
+```
+type HandlerFunc func(ResponseWriter, *Request)
+```
+
+#### Why are we able to pass an instance of ResponseWriter into `Fprintf`
+- `Fprint` takes in `io.Writer` as it's first argument and anything to be written on to this writer
+- `io.Writer`
+```
+type Writer interface {
+	Write(p []byte) (n int, err error)
+}
+```
+- `http.ResponseWriter` interface also has `Write` method, and thus qualifies to be of a type of `io.Writer`, thus `http.ResponseWriter` implements `io.Writer`
+```
+type ResponseWriter interface {
+	Header() Header
+	Write([]byte) (int, error)
+	WriteHeader(statusCode int)
+}
+```
+
+#### `HandleFunc` Vs `HandlerFunc`
+- `http.HandleFunc` is used to register incoming request route handlers by accepting functions of type`http.HandlerFunc`
+```
+package http
+
+...
+
+func HandleFunc(pattern string, handler func(ResponseWriter, *Request)) {
+ ...
+}
+
+...
+```
+
+#### `http.HandleFunc`, `ServeMux.HandleFunc`, `http.HandlerFunc`, `http.Handler`
+- `http` defines a default `ServeMux` called `DefaultServeMux` defined at package level, which is used by **package level** `http.HandleFunc`
+- `ServeMux` defines it's own method `HandleFunc`.
+- The body of both `HandleFunc` is same, other than just the instance of `ServeMux` being used
+	- `http.HandleFunc` uses `DefaultServeMux`
+	- `func (*ServeMux) HandleFunc` uses `ServeMux`
+	
+- at the end of the day, we need to invoke `http.ListenAndServe` function which takes in `http.Handler` interface
+```
+
+package http
+...
+type Handler interface {
+	ServeHTTP(ResponseWriter, *Request) // same as of type http.HandlerFunc
+}
+...
+
+func ListenAndServe(addr string, handler Handler) error {
+ ...
+}
+```
+- The `http.ServeMux` implements `http.Handler` interface
+```
+package http
+
+...
+
+func (mux *ServeMux) ServeHTTP(w ResponseWriter, r *Request) {
+	...
+}
+```
+- Thus, if we are using `http.DefaultServeMux` which has package level state, we can use
+```
+package main
+
+...
+	http.HandleFunc("/", handlerFunc)
+	http.ListenAndServe(":3000", nil) // passing nil to use http.DefaultServeMux
+...
+
+```
+
+
+#### All confusing this together:
+- **`HandlerFunc`**: 
+	- `type http.HandlerFunc func(ResponseWriter, *Request)`
+- **`HandleFunc`** (**`DefaultServeMux`**) **& `ServeMux.HandleFunc`**
+	- `http.DefaultServeMux` uses package level state which is used by package level `http.HandleFunc` `func`
+	- `ServeMux` is a struct type
+	- `HandleFunc` is used to **register** `HandlerFunc` for a particular request route
+- **`Handler.ServeHTTP` & `ServeMux.ServeHTTP`**
+	- `ServeMux` implements `Handler` interface
+	- `http.ListenAndServe(addr string, handler Handler)` expects implementation of `Handler`. If nil, uses `DefaultServeMux`
+```
+type Handler interface {
+	ServeHTTP(ResponseWriter, *Request) // same as of type http.HandlerFunc
+}
+```
+
+#### Using `DefaultServeMux`
+```go
+package main
+
+import (
+	"fmt"
+	"net/http"
+)
+
+func handlerFunc(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprint(w, "<h1>Welcome</h1>")
+}
+
+func main() {
+	http.HandleFunc("/", handlerFunc)
+	fmt.Println("Starting the server on :3000")
+	http.ListenAndServe(":3000", nil)
+}
+```
+#### Using `ServeMux`
+```go
+package main
+
+import (
+	"fmt"
+	"net/http"
+)
+
+func handlerFunc(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprint(w, "<h1>Welcome</h1>")
+}
+
+func main() {
+	mux := http.NewServeMux()
+	mux.HandleFunc("/", handlerFunc)
+	fmt.Println("Starting the server on :3000")
+	http.ListenAndServe(":3000", mux)
+}
+```
+
+- `http.ListenAndServe` actually keeps the go program away from getting exited
