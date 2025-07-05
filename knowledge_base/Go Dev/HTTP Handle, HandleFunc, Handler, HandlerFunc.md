@@ -98,6 +98,7 @@ package main
 #### All confusing this together:
 - **`HandlerFunc`**: 
 	- `type http.HandlerFunc func(ResponseWriter, *Request)`
+	- it also implements `http.Handler`
 - **`HandleFunc`** (**`DefaultServeMux`**) **& `ServeMux.HandleFunc`**
 	- `http.DefaultServeMux` uses package level state which is used by package level `http.HandleFunc` `func`
 	- `ServeMux` is a struct type
@@ -105,6 +106,7 @@ package main
 - **`Handler.ServeHTTP` & `ServeMux.ServeHTTP`**
 	- `ServeMux` implements `Handler` interface
 	- `http.ListenAndServe(addr string, handler Handler)` expects implementation of `Handler`. If nil, uses `DefaultServeMux`
+	- `http.ListenAndServe` actually keeps the go program away from getting exited
 ```
 type Handler interface {
 	ServeHTTP(ResponseWriter, *Request) // same as of type http.HandlerFunc
@@ -150,5 +152,125 @@ func main() {
 	http.ListenAndServe(":3000", mux)
 }
 ```
+#### Using `http.HandlerFunc` type
+- The `http.HandlerFunc` type inside the `http` package also has a method `ServeHTTP`, and thus `http.HandlerFunc` also implements `http.Handler` interface
+```go
+package http
 
-- `http.ListenAndServe` actually keeps the go program away from getting exited
+// ...
+
+type HandlerFunc func(ResponseWriter, *Request)
+
+// ServeHTTP calls f(w, r).
+func (f HandlerFunc) ServeHTTP(w ResponseWriter, r *Request) {
+	f(w, r)
+}
+```
+- Thus we can **convert** any function with parameters `(w http.ResponseWriter, r *http.Request)`  into `http.HandlerFunc` and use it to pass to `http.ListenAndServe` function
+```go
+package main
+
+import (
+	"fmt"
+	"net/http"
+)
+
+func handlerFunc(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprint(w, "<h1>Welcome</h1>")
+}
+
+func main() {
+	fmt.Println("Starting the server on :3000")
+	http.ListenAndServe(":3000", http.HandlerFunc(handlerFunc))
+}
+```
+#### Using Custom router
+- Implements `http.Handler`
+```go
+package main
+
+import (
+	"fmt"
+	"net/http"
+)
+
+func homeHandler(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprint(w, `<h1>Welcome</h1><a href="/contacts">Contacts</a>`)
+}
+
+func contactHandler(w http.ResponseWriter, r *http.Request) {
+	fmt.Println(r.Method)
+	fmt.Fprint(w, `<h1>contacts</h1><p>To get in touch, email me at <a href="mailto:vishal.govind2098@gmail.com">vishal.govind2098@gmail.com</a></p>`)
+}
+
+type Router struct{} // Implements http.Handler
+
+func (router Router) ServeHTTP(w http.ResponseWriter, r *http.Request) {
+	switch r.URL.Path {
+	case "/":
+		homeHandler(w, r)
+	case "/contacts":
+		contactHandler(w, r)
+	default:
+		http.NotFound(w, r)	
+	}
+}
+
+func main() {
+	router := Router{}
+	fmt.Println("Starting the server on :3000")
+	http.ListenAndServe(":3000", router)
+}
+```
+#### Why would we want to have such a setup of `Router` type rather than plain `HandlerFunc`s?
+ It's very common to need different information
+```go
+package main
+
+import (
+	"database/sql"
+	"fmt"
+	"net/http"
+)
+
+type Server struct {
+	DB *sql.DB
+}
+
+func (s *Server) homeHandler(w http.ResponseWriter, r *http.Request) {
+	// we can make use of s.DB here
+	fmt.Fprint(w, `<h1>Welcome</h1><a href="/contacts">Contacts</a>`)
+}
+
+func (s *Server) contactHandler(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprint(w, `<h1>contacts</h1><p>To get in touch, email me at <a href="mailto:vishal.govind2098@gmail.com">vishal.govind2098@gmail.com</a></p>`)
+}
+
+type Router struct{
+	Server *Server
+} // Implements http.Handler
+
+func (router Router) ServeHTTP(w http.ResponseWriter, r *http.Request) {
+	switch r.URL.Path {
+	case "/":
+		router.s.homeHandler(w, r)
+	case "/contacts":
+		router.s.contactHandler(w, r)
+	default:
+		http.NotFound(w, r)	
+	}
+}
+
+func main() {
+	s := Server{ DB: db }
+	router := Router{ Server: &s }
+	fmt.Println("Starting the server on :3000")
+	http.ListenAndServe(":3000", router)
+}
+```
+
+
+#### Why are there so many ways of doing this same thing in Go?
+- one can simply convert a function to `Handler` type
+- one can simply choose to use `http.DefaultServeMux` and simply register handlers using `http.HandleFunc`
+- Behind the scenes, every approach is at the end converted to `http.Handler`  type and further use `ServeHTTP` method inside of it

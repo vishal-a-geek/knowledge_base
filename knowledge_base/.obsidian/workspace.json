@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Go Dev/HTTP Handler and Handle Function.md",
+                "file": "Go Dev/HTTP Handle, HandleFunc, Handler, HandlerFunc.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "HTTP Handler and Handle Function"
+              "title": "HTTP Handle, HandleFunc, Handler, HandlerFunc"
             }
           }
         ]
@@ -171,8 +171,11 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "110819deac7cbf9c",
+  "active": "d7f634906af95909",
   "lastOpenFiles": [
+    "Go Dev/go install.md",
+    "Go Dev/HTTP Handle, HandleFunc, Handler, HandlerFunc.md",
+    "Go Dev/Path vs RawPath.md",
     "Design Patterns/Abstract Factory Pattern.md",
     "drawing_tools/icons.excalidrawlib",
     "drawing_tools/google-icons.excalidrawlib",
@@ -197,7 +200,6 @@
     "Knowledge Base/Knowledge Kan.md",
     "Go/Why Go/Go.md",
     "Go Dev/fmt.Fprint vs  fmt.Print.md",
-    "Go Dev/HTTP Handler and Handle Function.md",
     "Go Dev/CMD Directory.md",
     "Docker & K8s/multi-docker/Pasted Image 20250704102317_106.png",
     "Docker & K8s/multi-docker/Pasted Image 20250704102455_254.png",
@@ -217,7 +219,6 @@
     "Authentication/Base64 Enc.md",
     "Schedule/Schedule.md",
     "Untitled.md",
-    "Go Dev/Go learnings.md",
     "Untitled.canvas"
   ]
 }
