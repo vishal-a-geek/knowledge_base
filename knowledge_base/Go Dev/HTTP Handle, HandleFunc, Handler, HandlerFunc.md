@@ -1,4 +1,4 @@
-#go #http-handler-func #net/http #io-writer #http-ResponseWriter #fmt-Fprint #http-ServeMux #http-handle-func #http-Handler
+#go #http-handler-func #net/http #io-Writer #http-ResponseWriter #fmt-Fprint #http-ServeMux #http-handle-func #http-Handler
 
 In go, we handle any incoming web request by reflecting to the reality that there are two things **request** and **response**
 ```
