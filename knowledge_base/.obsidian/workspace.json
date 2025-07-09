@@ -4,56 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "13a63e9914ca07de",
+        "id": "8d4986e671e54c4f",
         "type": "tabs",
         "children": [
           {
-            "id": "46fbc00e6f1787c9",
+            "id": "c7ff6068a7c47505",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Go Dev/CMD Directory.md",
+                "file": "Go Dev/embed package.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "CMD Directory"
+              "title": "embed package"
             }
           },
           {
-            "id": "17f7512ca65b595d",
+            "id": "0d6977e2ee177f03",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Go Dev/GopherCon - How Do You Structure Your Go Apps.md",
+                "file": "Go Dev/Sentinel Errors.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "GopherCon - How Do You Structure Your Go Apps"
-            }
-          },
-          {
-            "id": "4c419027700cc4fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Go Dev/GohpherCon - The Scheduler Saga.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "GohpherCon - The Scheduler Saga"
+              "title": "Sentinel Errors"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#sentinel-errors",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 426.5086555480957
+    "width": 359.5086555480957
   },
   "right": {
     "id": "b728b4262fed4323",
@@ -202,11 +186,22 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "4c419027700cc4fe",
+  "active": "c7ff6068a7c47505",
   "lastOpenFiles": [
+    "Go Dev/Go Templating.md",
+    "Go Dev/embed package.md",
+    "Go Dev/fmt.Errorf and %w and Error Wrapping.md",
+    "Go Dev/Sentinel Errors.md",
+    "Go Dev/Error Wrapping.md",
+    "Untitled",
+    "Go Dev/HTTP Handle, HandleFunc, Handler, HandlerFunc.md",
+    "Go Dev/attachments/Hexagonal-Architecture 2.png",
+    "Go Dev/attachments/Hexagonal-Architecture 1.png",
     "Go Dev/GopherCon - How Do You Structure Your Go Apps.md",
-    "Go Dev/CMD Directory.md",
     "Go Dev/GohpherCon - The Scheduler Saga.md",
+    "Go Dev/CMD Directory.md",
+    "Docker & K8s/multi-docker/Multi-Docker architecture.md",
+    "Go Dev/GopherCon - Understanding Channels.md",
     "Go Dev/Go Naming Conventions.md",
     "Go Dev/Code Organization.md",
     "Knowledge Base/Schedule/Plan.md",
@@ -215,8 +210,6 @@
     "Excalidraw/Drawing 2025-07-06 21.15.03.excalidraw.md",
     "Excalidraw",
     "Untitled.md",
-    "Go Dev/Go Templating.md",
-    "Go Dev/HTTP Handle, HandleFunc, Handler, HandlerFunc.md",
     "Go Dev/attachments/Contextual Encoding.png",
     "Go Dev/Cross-Site-Scripting (XSS).md",
     "Go Dev/attachments/XSS-3.png",
@@ -236,20 +229,11 @@
     "drawing_tools/bloom-visualisation.png",
     "drawing_tools/aws-architecture-icons.excalidrawlib",
     "drawing_tools/awesome-icons.excalidrawlib",
-    "drawing_tools/architecture-diagram-components.excalidrawlib",
     "drawing_tools/Template.excalidraw.md",
     "NGINX/TLS Termination VS TLS Passthrough.md",
     "NGINX/NGINX.md",
     "NGINX/NGINX arch.png",
     "NGINX/NGINX Proxying (L4 vs L7).md",
-    "NGINX/NGINX Internal Architecture.md",
-    "NGINX/Managing Threading & Connection.md",
-    "Knowledge Base/Schedule/Schedule.md",
-    "Knowledge Base/Knowledge Kan.md",
-    "Go/Why Go/Go.md",
-    "Go Dev/fmt.Fprint vs  fmt.Print.md",
-    "Docker & K8s/multi-docker/Pasted Image 20250704102317_106.png",
-    "Docker & K8s/multi-docker/Pasted Image 20250704102455_254.png",
     "Untitled.canvas"
   ]
 }

@@ -237,6 +237,7 @@ myapp/
 
 ### 5. Hexagonal Architecture
 #hexagonal-architecture
+![[Hexagonal-Architecture 1.png]]![[Hexagonal-Architecture 2.png]]
 - We gradually start distinguishing between 
 	- the parts of the system which form a core domain (business logic)
 	- and all the external dependencies are just the implementation details like (diff sides of hexagon)

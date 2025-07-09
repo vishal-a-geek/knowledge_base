@@ -1,4 +1,4 @@
-#go #go-scheduler #go-runtime #parallelism #multi-threading #contention
+#go #go-scheduler #go-runtime #parallelism #multi-threading #contention #concurrency
 
 [Source](https://youtu.be/YHRO5WQGh0k?si=G6WGfeFy5N_1E1jH)
 

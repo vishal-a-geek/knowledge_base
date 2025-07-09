@@ -2,9 +2,9 @@
   "collapse-filter": false,
   "search": "",
   "showTags": true,
-  "showAttachments": true,
+  "showAttachments": false,
   "hideUnresolved": true,
-  "showOrphans": true,
+  "showOrphans": false,
   "collapse-color-groups": false,
   "colorGroups": [
     {
@@ -27,6 +27,13 @@
         "a": 1,
         "rgb": 11392604
       }
+    },
+    {
+      "query": "tag:#go",
+      "color": {
+        "a": 1,
+        "rgb": 7363798
+      }
     }
   ],
   "collapse-display": false,
@@ -39,6 +46,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.4354279229460434,
+  "scale": 0.34461335226966666,
   "close": true
 }

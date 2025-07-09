@@ -250,6 +250,7 @@ err = t.Execute(buf, "name")
 if err != nil {
 	http.Error(w, "There was an error executing template", http.StatusInternalServerError)
 	return
-}
+} 
 fmt.Fprint(w, buf.String())
 ```
+ 
