@@ -4,17 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "0c7ba9e9300625d8",
+        "id": "74c01b9ca9c51f0d",
         "type": "tabs",
         "children": [
           {
-            "id": "e1c922488ec29a43",
+            "id": "b49cc12a30e05c30",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Go Dev/SQL with Go.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "SQL with Go"
+            }
+          },
+          {
+            "id": "d265e941185f2c63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Go Dev/Cross-Site-Scripting (XSS).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Cross-Site-Scripting (XSS)"
             }
           }
         ]
@@ -49,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#sentinel-errors",
+                "query": "tag:#sql-injection",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,11 +90,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 359.5086555480957
+    "width": 200
   },
   "right": {
     "id": "b728b4262fed4323",
@@ -166,34 +187,40 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "110819deac7cbf9c",
+  "active": "b49cc12a30e05c30",
   "lastOpenFiles": [
+    "Go Dev/Cross-Site-Scripting (XSS).md",
+    "Go Dev/SQL with Go.md",
+    "Knowledge Base/Schedule/Do or Die.md",
+    "Marriage Expenses.md",
+    "DSA",
+    "Data Engineering/Spark/1. What is Apache Spark?.md",
+    "Knowledge Base/Targeted Knowledge Base.md",
+    "Go Dev/Reflection in go.md",
+    "Go Dev/Path vs RawPath.md",
+    "Go Dev/Parsing HTTP Request.md",
+    "Go Dev/GopherCon - How Do You Structure Your Go Apps.md",
+    "Go/Why Go/Go.md",
+    "Go Dev/SQL Resources.md",
+    "Go Dev/embed package.md",
+    "Go Dev/fmt.Errorf and %w and Error Wrapping.md",
+    "Go Dev/Postgres Config.md",
     "Go Dev/Sentinel Errors.md",
     "Go Dev/Go Templating.md",
     "Go Dev/attachments/Named template.png",
     "Lenslocked.md",
-    "Go Dev/embed package.md",
-    "Go Dev/fmt.Errorf and %w and Error Wrapping.md",
     "Go Dev/Error Wrapping.md",
-    "Untitled",
     "Go Dev/HTTP Handle, HandleFunc, Handler, HandlerFunc.md",
     "Go Dev/attachments/Hexagonal-Architecture 2.png",
     "Go Dev/attachments/Hexagonal-Architecture 1.png",
-    "Go Dev/GopherCon - How Do You Structure Your Go Apps.md",
     "Go Dev/GohpherCon - The Scheduler Saga.md",
     "Go Dev/CMD Directory.md",
     "Docker & K8s/multi-docker/Multi-Docker architecture.md",
     "Go Dev/GopherCon - Understanding Channels.md",
     "Go Dev/Go Naming Conventions.md",
     "Go Dev/Code Organization.md",
-    "Knowledge Base/Schedule/Plan.md",
-    "Knowledge Base/Schedule/Do or Die.md",
-    "Knowledge Base/Schedule/Do or Die.md",
-    "Excalidraw/Drawing 2025-07-06 21.15.03.excalidraw.md",
     "Excalidraw",
-    "Untitled.md",
     "Go Dev/attachments/Contextual Encoding.png",
-    "Go Dev/Cross-Site-Scripting (XSS).md",
     "Go Dev/attachments/XSS-3.png",
     "Go Dev/attachments/Pasted image 20250706103839.png",
     "Go Dev/attachments",
@@ -201,9 +228,6 @@
     "Go Dev/attachments/XSS.png",
     "Go Dev/attachments/SQL - Injection.png",
     "Go Dev/images",
-    "Go Dev/Path vs RawPath.md",
-    "Go Dev/go install.md",
-    "Design Patterns/Abstract Factory Pattern.md",
     "drawing_tools/icons.excalidrawlib",
     "drawing_tools/google-icons.excalidrawlib",
     "drawing_tools/data-viz.excalidrawlib",
@@ -211,8 +235,6 @@
     "drawing_tools/bloom-visualisation.png",
     "drawing_tools/aws-architecture-icons.excalidrawlib",
     "drawing_tools/awesome-icons.excalidrawlib",
-    "drawing_tools/Template.excalidraw.md",
-    "NGINX/TLS Termination VS TLS Passthrough.md",
     "Untitled.canvas"
   ]
 }
